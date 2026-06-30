@@ -1,0 +1,8 @@
+const { expect } = require("chai");
+
+describe("Простой тест AIJudge", function () {
+  it("Тест должен успешно пройти", async function () {
+    console.log("ТЕСТ ЗАПУЩЕН И РАБОТАЕТ!");
+    expect(true).to.equal(true);
+  });
+});
